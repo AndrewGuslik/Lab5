@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Для скачивания введите номер журнала(1 или 2), который хотите скачать"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/popupState"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Больше не показывать"
+        />
+</LinearLayout>
